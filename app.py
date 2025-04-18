@@ -24,7 +24,6 @@ if uploaded_file is not None:
 
     # Display preprocessed image
     st.subheader("🖼️ Preprocessed Image")
-    fig, ax = plt.subplots()
     ax.imshow(img_array, cmap='gray')
     ax.axis('off')
     st.pyplot(fig)
