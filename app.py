@@ -2,7 +2,6 @@ import streamlit as st
 import numpy as np
 import tensorflow as tf
 from PIL import Image, ImageOps
-import matplotlib.pyplot as plt
 
 # Load the trained model
 model = tf.keras.models.load_model('mnist_digit_classifier.keras')
